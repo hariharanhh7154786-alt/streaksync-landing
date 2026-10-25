@@ -1,0 +1,115 @@
+<!DOCTYPE html>    <li>ESP32 + OLED desk display--Project I</li>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StreakSync – Learn Every Day, Stay Connected</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">Streak<span>Sync</span></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Build your learning streak. <span>Never break it.</span></h1>
+      <p>StreakSync tracks your daily progress on a web dashboard and a tiny hardware display on your desk, so your goals stay in front of you.</p>
+      <div class="hero-buttons">
+        <a href="#pricing" class="btn btn-primary">Get Started</a>
+        <a href="#how" class="btn btn-outline">See how it works</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Today's Progress</h3>
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <p class="streak-count">🔥 18 day streak</p>
+    </div>
+  </section>
+  <section class="features" id="features">
+    <h2>Why StreakSync?</h2>
+    <p class="section-sub">Everything you need to stay consistent.</p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="icon">📊</div>
+        <h3>Progress Dashboard</h3>
+        <p>See completion rings, weekly views and milestones in one clean screen.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🔥</div>
+        <h3>Streak Counter</h3>
+        <p>Stay motivated with a daily streak that rewards consistency.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">📟</div>
+        <h3>Desk Companion</h3>
+        <p>An ESP32 with an OLED display shows your streak without opening any app.</p>
+      </div>
+    </div>
+  </section>
+  <section class="how" id="how">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><span class="step-num">1</span><h3>Plan</h3><p>Set your daily learning tasks.</p></div>
+      <div class="step"><span class="step-num">2</span><h3>Learn</h3><p>Complete tasks and tick them off.</p></div>
+      <div class="step"><span class="step-num">3</span><h3>Sync</h3><p>Your streak updates on the dashboard and your desk display.</p></div>
+    </div>
+  </section>
+  <section class="pricing" id="pricing">
+    <h2>Choose your plan</h2>
+    <p class="section-sub">Start free. Upgrade when you're ready.</p>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Starter</h3>
+        <p class="price">₹0<span>/month</span></p>
+        <ul>
+          <li>Daily task tracker</li>
+          <li>Streak counter</li>
+          <li>7-day history</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Choose Starter</a>
+      </div>
+      <div class="price-card popular">
+        <span class="badge">Most Popular</span>
+        <h3>Pro</h3>
+        <p class="price">₹99<span>/month</span></p>
+        <ul>
+          <li>Everything in Starter</li>
+          <li>Full progress history</li>
+          <li>Milestones and badges</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Choose Pro</a>
+      </div>
+      <div class="price-card">
+        <h3>Hardware</h3>
+        <p class="price">₹799<span>/one-time</span></p>
+        <ul>
+          <li>Everything in Pro</li>
+          <li>ESP32 + OLED desk display</li>
+          <li>Live streak sync</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Order Hardware</a>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Get in touch</h2>
+    <p class="section-sub">Have questions or feedback? We'd love to hear from you.</p>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>    
